@@ -35,7 +35,7 @@ function Map(props) {
                     <LayersControl.Overlay checked  name="Positions">
                         {positionsKml && <ReactLeafletKml kml={positionsKml} />}
                     </LayersControl.Overlay>
-                    <LayersControl.Overlay name="Trenches">
+                    <LayersControl.Overlay checked name="Trenches">
                         {trenchesKml && <ReactLeafletKml kml={trenchesKml} />}
                     </LayersControl.Overlay>
                 </LayersControl>
